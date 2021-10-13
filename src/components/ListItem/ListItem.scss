@@ -1,0 +1,22 @@
+.launches__item {
+    margin-bottom: 10px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f3f3f3;
+    padding: 20px 40px;
+  
+    box-shadow: 0px 5px 10px 2px rgb(34 60 80 / 70%);
+    border-radius: 20px;
+    &__data {
+        width: calc(100% - 350px);
+    }
+    &__logo {
+        margin: 0 auto;
+    }
+    &__date{
+        margin-bottom: 15px;
+    }
+}

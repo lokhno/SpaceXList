@@ -1,0 +1,15 @@
+.launches {
+    font-family: "Roboto", sans-serif;
+    margin: 15px;
+    padding: 10px;
+    // box-shadow: 0px 5px 10px 2px rgb(34 60 80 / 70%);
+    border-radius: 20px;
+    h1 {
+        margin: 0;
+        display: flex;
+        align-items: center;
+    }
+    &__header {
+        display: flex;
+    }
+}
